@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sqlmodel
+asyncpg
+google-auth-oauthlib
+httpx
+pydantic-settings
+greenlet

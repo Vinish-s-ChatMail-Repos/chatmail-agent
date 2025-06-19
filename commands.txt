@@ -1,0 +1,18 @@
+# commands are only tested in macOS if using windows look up relavent command
+# "python3" only for macOS use just "python" for windows
+# To Remove
+rm -rf venv
+
+# To create venv (virtual env)
+python3 -m venv venv
+
+# To activate the virtual env we just created. To deactivate just type deactivate
+source ./venv/bin/activate
+ 
+deactivate
+
+# Install
+pip3 install -r requirements.txt
+
+#To Start
+uvicorn app.main:app --reload
