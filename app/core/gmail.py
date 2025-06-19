@@ -3,9 +3,14 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from app.core.config import settings
 
-SCOPES = ["https://www.googleapis.com/auth/gmail.readonly", "https://www.googleapis.com/auth/gmail.send"]
+SCOPES = [
+        "openid",
+        "https://www.googleapis.com/auth/userinfo.email",
+        "https://www.googleapis.com/auth/gmail.readonly",
+        "https://www.googleapis.com/auth/gmail.send",
+    ]
 
-def get_flow():
+def get_flow() -> Flow:
     return Flow.from_client_config(
         {
             "web": {
