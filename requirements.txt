@@ -6,3 +6,4 @@ google-auth-oauthlib
 httpx
 pydantic-settings
 greenlet
+langchain_openai
