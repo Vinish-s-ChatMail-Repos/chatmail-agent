@@ -50,15 +50,10 @@ The agent is powered by a combination of:
 
 ## 🚧 Current Status
 
-> 🧪 *This is an early prototype. It's still not able to do any meaningful iteractoin yet*  
-Basic actions such as reading emails and parsing queries are being tested. Advanced interaction flows and UI/UX are still in progress.
+>  *This is an early prototype. It's still not able to do any meaningful iteractoin yet*  
+Basic actions such as reading emails and parsing queries are being tested. Advanced interaction flows and UI/UX are still in progress. 
 
-Expect:
-- Bugs 🐞  
-- Incomplete features 🔧  
-- Rapid iterations 🔁  
-
-## 📌 Goals
+## Goals
 
 - Make email management conversational, intuitive, and AI-powered.
 - Help reduce inbox anxiety and manual email triage.
